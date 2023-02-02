@@ -1,0 +1,23 @@
+PyPDF2==1.28.6
+psycopg2
+passlib
+Pillow
+reportlab
+babel
+markupsafe
+Werkzeug==0.16.1 ; python_version <= '3.9'
+Werkzeug==2.0.2 ; python_version > '3.9'  # (Jammy)
+lxml
+decorator
+python-dateutil
+polib
+idna
+requests
+pypiwin32 ; sys_platform == 'win32'
+psutil
+jinja2
+pyopenssl
+docutils
+qrcode
+chardet
+libsass
