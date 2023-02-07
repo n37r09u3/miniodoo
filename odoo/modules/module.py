@@ -389,7 +389,6 @@ def load_manifest(module, mod_path=None):
             )
     elif manifest['auto_install']:
         manifest['auto_install'] = set(manifest['depends'])
-
     manifest['version'] = adapt_version(manifest['version'])
     manifest['addons_path'] = normpath(opj(mod_path, os.pardir))
 
